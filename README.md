@@ -1,2 +1,4 @@
 MyPrimefaces
 ============
+
+Primefaces blank application.
