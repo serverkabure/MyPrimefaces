@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<title>title</title>
+</h:head>
+<h:body>
+	<h:form>
+		<p:menubar style="font-size:small;">
+			<p:submenu label="日本語">
+				<p:menuitem value="日本語テスト" />
+			</p:submenu>
+		</p:menubar>
+
+		<p:tabView style="font-size:small;">
+			<p:tab title="タブ1">
+				<h:panelGrid columns="2" cellpadding="10">
+					<h:outputText value="タブ1" />
+					<h:outputText value="工事中" />
+				</h:panelGrid>
+			</p:tab>
+
+			<p:tab title="タブ2">
+				<h:panelGrid columns="2" cellpadding="10">
+					<h:outputText value="タブ2" />
+					<h:outputText value="工事中" />
+				</h:panelGrid>
+			</p:tab>
+
+			<p:tab title="タブ3">
+				<h:panelGrid columns="2" cellpadding="10">
+					<h:outputText value="タブ3" />
+					<h:outputText value="工事中" />
+				</h:panelGrid>
+			</p:tab>
+
+		</p:tabView>
+	</h:form>
+</h:body>
+</html>
